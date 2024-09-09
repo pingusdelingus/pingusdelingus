@@ -1,0 +1,41 @@
+name: Run Console 
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # Runs every 10 minutes
+
+jobs:
+  console:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2  # Checkout your code repository
+      - name: Run "console"
+        run: |  # Multi-line script with commands
+          sudo timedatectl set-timezone America/New_York  # Set timezone
+          chmod 754 console.sh                           # Make console.sh executable
+          cp base.md README.md                           # Copy base.md to README.md
+          ./console.sh | tee -a README.md                 # Run console.sh and append output
+          echo '```' >> README.md                         # Add code block marker
+          git config user.name github-actions            # Configure Git user name
+          git config user.email github-actions@github.com  # Configure Git user email
+          git add README.md                              # Add README.md to commit
+          git commit -m "Run console"                      # Commit changes with message
+          git push                                         # Push changes to remote
+
+**Explanation:**
+
+* `name`: Defines the workflow name for better organization.
+* `on`: Triggers the workflow using the `schedule` event.
+  * `cron`: Uses cron syntax to specify the schedule. In this case, `*/10 * * * *` means every 10 minutes.
+* `jobs`: Defines the jobs within the workflow.
+  * `console`: The job name.
+  * `runs-on`: Specifies the runner environment (here, Ubuntu).
+  * `steps`: Defines the individual steps to be executed in the job.
+      * Each step is a command or action executed serially.
+      * Multi-line commands can be used with the `|` character.
+
+**Important Notes:**
+
+* Make sure you have `console.sh` and `base.md` files in your repository.
+* Consider adding error handling and logging for better feedback.
+* This workflow pushes changes directly to the remote repository. If you don't intend automatic pushing, modify the last two steps (`git push`).
