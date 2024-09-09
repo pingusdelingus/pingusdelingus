@@ -10,7 +10,9 @@
 
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=pingusdelingus&show_icons=true&locale=en&layout=compact" alt="pingusdelingus" /></p>
-Last login: Sun, 08 Sep 2024 at 23:43:09 EDT from 10.1.33.7
+
+```sh
+Last login: Sun, 08 Sep 2024 at 23:48:42 EDT from 10.1.33.7
 
 $ echo "hello world, im $(whoami)."
 hello world, im esteban.
