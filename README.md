@@ -17,7 +17,7 @@ hello world, im esteban.
 $ ls ~/interests
 
 $ head -1 /etc/hosts
-127.0.0.1 localhost 🇸🇬 singapore
+127.0.0.1 localhost miami, fl
 
 $ # do one thing and do it well. ^U^D
 ```
