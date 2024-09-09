@@ -22,20 +22,4 @@ jobs:
           git commit -m "Run console"                      # Commit changes with message
           git push                                         # Push changes to remote
 
-**Explanation:**
 
-* `name`: Defines the workflow name for better organization.
-* `on`: Triggers the workflow using the `schedule` event.
-  * `cron`: Uses cron syntax to specify the schedule. In this case, `*/10 * * * *` means every 10 minutes.
-* `jobs`: Defines the jobs within the workflow.
-  * `console`: The job name.
-  * `runs-on`: Specifies the runner environment (here, Ubuntu).
-  * `steps`: Defines the individual steps to be executed in the job.
-      * Each step is a command or action executed serially.
-      * Multi-line commands can be used with the `|` character.
-
-**Important Notes:**
-
-* Make sure you have `console.sh` and `base.md` files in your repository.
-* Consider adding error handling and logging for better feedback.
-* This workflow pushes changes directly to the remote repository. If you don't intend automatic pushing, modify the last two steps (`git push`).
