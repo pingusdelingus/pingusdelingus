@@ -1,6 +1,7 @@
+![nightlife in miami - imgur https://imgur.com/a/1wl2zBG](https://github.com/pingusdelingus/pingusdelingus/blob/b9acd9be51e675fe99041d021c4bc92385dcad95/Downtown%20Miami%204k%20Nighttime%20Cinematic%20Drone%20Footage(1).gif)
+
 <h1 align="center">Hi I'm esteban</h1>
 <h3 align="center">An aspiring mathematician and computer scientist</h3>
-![Nightlife in Miami : https://imgur.com/a/1wl2zBG](https://github.com/pingusdelingus/pingusdelingus/blob/b9acd9be51e675fe99041d021c4bc92385dcad95/Downtown%20Miami%204k%20Nighttime%20Cinematic%20Drone%20Footage(1).gif)
 
 - ⚡ Fun fact **I can speak greek fluently!**
 
