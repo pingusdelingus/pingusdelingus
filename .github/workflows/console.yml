@@ -2,7 +2,7 @@ name: Run Console
 
 on:
   schedule:
-    - cron: "*/1 * * * *"  # Runs every 10 minutes
+    - cron: "*/1 * * * *"  # Runs every 1 minutes
 
 jobs:
   console:
