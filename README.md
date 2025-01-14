@@ -12,7 +12,7 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=pingusdelingus&show_icons=true&locale=en&layout=compact" alt="pingusdelingus" /></p>
 
 ```sh
-Last login: Tue, 14 Jan 2025 at 08:30:51 EST from 10.1.33.7
+Last login: Tue, 14 Jan 2025 at 08:43:17 EST from 10.1.33.7
 
 $ echo "hello world, im $(whoami)."
 hello world, im esteban.
