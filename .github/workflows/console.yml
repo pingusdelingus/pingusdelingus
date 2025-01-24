@@ -1,4 +1,4 @@
-name: Run Console 
+name: Run Console
 
 on:
   schedule:
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2  # Checkout your code repository
       - name: Run "console"
-        run: |  # Multi-line script with commands
+        run: |
           sudo timedatectl set-timezone America/New_York  # Set timezone
           chmod 754 console.sh                           # Make console.sh executable
          
@@ -25,11 +25,8 @@ jobs:
           echo '```' >> README.md
           cat static.md >> README.md
 
-          
           git config user.name github-actions            # Configure Git user name
           git config user.email github-actions@github.com  # Configure Git user email
           git add README.md                              # Add README.md to commit
           git commit -m "Run console"                      # Commit changes with message
           git push                                         # Push changes to remote
-
-
