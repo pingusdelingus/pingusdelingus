@@ -37,16 +37,4 @@ $ # do one thing and do it well. ^U^D
 
 
 ![nightlife in miami - imgur https://imgur.com/a/1wl2zBG](https://github.com/pingusdelingus/pingusdelingus/blob/b9acd9be51e675fe99041d021c4bc92385dcad95/Downtown%20Miami%204k%20Nighttime%20Cinematic%20Drone%20Footage(1).gif)
-Last login: Fri, 24 Jan 2025 at 15:49:02 EST from 10.1.33.7
 
-$ echo "hello world, im $(whoami)."
-hello world, im esteban.
-
-$ ls ~/interests
-✏️mathematics 🌐3d 🌨️cloud 🐧linux 💻coding 🔨neovim 🚩cybersecurity
-
-$ head -1 /etc/hosts
-127.0.0.1 localhost miami, fl 
-
-$ # do one thing and do it well. ^U^D
-```
