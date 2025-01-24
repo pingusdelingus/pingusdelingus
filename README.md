@@ -3,17 +3,15 @@
 
 ![nightlife in miami - imgur https://imgur.com/a/1wl2zBG](https://github.com/pingusdelingus/pingusdelingus/blob/b9acd9be51e675fe99041d021c4bc92385dcad95/Downtown%20Miami%204k%20Nighttime%20Cinematic%20Drone%20Footage(1).gif)
 
+
+![](https://github-readme-activity-graph.vercel.app/graph?username=xrce&theme=dracula&hide_border=true)
+
 <h1 align="center">hi i'm esteban</h1>
 <h3 align="center">an aspiring mathematician and computer scientist
 
 <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits.&days=45" /></h3>
 <p allign ="center"> feel free to connect!</p>
-<!-- <h1 align="center">hi i'm esteban</h1>
-<h3 align="center">an aspiring mathematician and computer scientist
 
-<img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits.&days=45" /></h3>
-<p allign ="center"> feel free to connect!</p>
--->
 
 
 
