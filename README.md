@@ -18,7 +18,7 @@ $ # do one thing and do it well. ^U^D
 
 <h1 align="center">hi i'm esteban</h1>
 <h3 align="center">an aspiring mathematician and computer scientist</h3>
-<h3 allign="center"> feel free to connect!</h3>
+<h3 align="center"> feel free to connect!</h3>
 
 
 
