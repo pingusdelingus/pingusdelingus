@@ -13,9 +13,19 @@ jobs:
         run: |  # Multi-line script with commands
           sudo timedatectl set-timezone America/New_York  # Set timezone
           chmod 754 console.sh                           # Make console.sh executable
-          cp base.md README.md                           # Copy base.md to README.md
-          ./console.sh | tee -a README.md                 # Run console.sh and append output
-          echo '```' >> README.md                         # Add code block marker
+         
+          #cp base.md README.md                           # Copy base.md to README.md
+          #./console.sh | tee -a README.md                 # Run console.sh and append output
+          #echo '```' >> README.md                         # Add code block marker
+
+          rm README.md # delete README
+          touch README.md # create blank README
+          echo "```sh" >> README.md
+          ./console.sh | tee -a README.md
+          echo '```' >> README.md
+          cat static.md >> README.md
+
+          
           git config user.name github-actions            # Configure Git user name
           git config user.email github-actions@github.com  # Configure Git user email
           git add README.md                              # Add README.md to commit
