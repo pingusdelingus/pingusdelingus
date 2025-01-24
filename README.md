@@ -8,7 +8,12 @@
 
 <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits.&days=45" /></h3>
 <p allign ="center"> feel free to connect!</p>
+<!-- <h1 align="center">hi i'm esteban</h1>
+<h3 align="center">an aspiring mathematician and computer scientist
 
+<img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits.&days=45" /></h3>
+<p allign ="center"> feel free to connect!</p>
+-->
 
 
 
