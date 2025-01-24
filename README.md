@@ -17,8 +17,7 @@ $ # do one thing and do it well. ^U^D
 ![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits)
 
 <h1 align="center">hi i'm esteban</h1>
-<h3 align="center">an aspiring mathematician and computer scientist \n
-feel free to connect! </h3>
+<h3 align="center">an aspiring mathematician and computer scientist <brfeel free to connect!/> </h3>
 
 
 
