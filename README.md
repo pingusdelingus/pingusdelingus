@@ -2,12 +2,10 @@
 > don't get lost in the sauce.
 
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=dracula&hide_border=true)
+![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits)
 
 <h1 align="center">hi i'm esteban</h1>
-<h3 align="center">an aspiring mathematician and computer scientist
-
-<img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits" /></h3>
+<h3 align="center">an aspiring mathematician and computer scientist</h3>
 <p allign ="center"> feel free to connect!</p>
 
 
