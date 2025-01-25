@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v2  # Checkout your code repository
       - name: Run "console"
         run: |
+          set -x
           sudo timedatectl set-timezone America/New_York  
           chmod 754 console.sh                           
          
