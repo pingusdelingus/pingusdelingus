@@ -11,12 +11,10 @@ jobs:
       - uses: actions/checkout@v2  # Checkout your code repository
       - name: Run "console"
         run: |
-          sudo timedatectl set-timezone America/New_York  # Set timezone
-          chmod 754 console.sh                           # Make console.sh executable
+          sudo timedatectl set-timezone America/New_York  
+          chmod 754 console.sh                           
          
-          #cp base.md README.md                           # Copy base.md to README.md
-          #./console.sh | tee -a README.md                 # Run console.sh and append output
-          #echo '```' >> README.md                         # Add code block marker
+         
 
           rm README.md # delete README
           touch README.md # create blank README
