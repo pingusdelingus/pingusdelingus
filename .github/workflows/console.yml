@@ -20,7 +20,7 @@ jobs:
           touch README.md # create blank README
           echo "```sh" >> README.md
           ./console.sh | tee -a README.md
-          echo '```' >> README.md
+          echo "```" >> README.md
           cat static.md >> README.md
 
           git config user.name github-actions            # Configure Git user name
