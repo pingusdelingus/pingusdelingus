@@ -2,7 +2,7 @@ name: Run Console
 
 on:
   schedule:
-    - cron: "*/1 * * * *"  # Runs every 1 minutes
+    - cron: "*/1 * * * *"  # Runs every 1 minute
 
 jobs:
   console:
@@ -11,22 +11,21 @@ jobs:
       - uses: actions/checkout@v2  # Checkout your code repository
       - name: Run "console"
         run: |
-          set -x
+          set -x  # Enable debugging
           sudo timedatectl set-timezone America/New_York  
           chmod 754 console.sh                           
-         
-         
-
           rm README.md # delete README
           touch README.md # create blank README
-          echo " ```sh " >> README.md
+          echo "```sh" >> README.md  # Append triple backticks to README.md
           ./console.sh | tee -a README.md
-          echo " ``` " >> README.md
+          echo "```" >> README.md  # Append closing triple backticks to README.md
           cat static.md >> README.md
 
           git config user.name github-actions            # Configure Git user name
           git config user.email github-actions@github.com  # Configure Git user email
           git add README.md                              # Add README.md to commit
           git commit -m "Run console"                      # Commit changes with message
-          git pull --rebase origin main
+          
+          # Ensure you pull the latest changes from the remote before pushing
+          git pull origin main --rebase  # Pull the latest changes with rebase
           git push                                         # Push changes to remote
