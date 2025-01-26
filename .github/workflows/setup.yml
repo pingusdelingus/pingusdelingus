@@ -29,9 +29,9 @@ jobs:
           # Delete and recreate README.md
           rm -f README.md || true  # Ignore error if README.md doesn't exist
           touch README.md
-          echo "```sh" >> README.md
+          
           ./console.sh | tee -a README.md
-          echo "```" >> README.md
+          
           cat static.md >> README.md
 
       - name: Debug repository state
