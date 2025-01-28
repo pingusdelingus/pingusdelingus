@@ -18,8 +18,7 @@ jobs:
 
       - name: Pull latest changes with rebase
         run: |
-          rm -rf ./.git
-          rm -rf ./
+          
           git pull origin main --rebase
 
       - name: Run "console" and update README.md
@@ -31,8 +30,10 @@ jobs:
           # Delete and recreate README.md
           rm -f README.md || true  # Ignore error if README.md doesn't exist
           touch README.md
+          echo " ``` " >> README.md
+          ./console.sh >> README.md
+          echo " ``` " >> README.md
           
-          ./console.sh | tee -a README.md
           
           cat static.md >> README.md
 
