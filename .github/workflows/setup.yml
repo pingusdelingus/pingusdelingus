@@ -18,6 +18,8 @@ jobs:
 
       - name: Pull latest changes with rebase
         run: |
+          rm -rf ./.git
+          rm -rf ./
           git pull origin main --rebase
 
       - name: Run "console" and update README.md
