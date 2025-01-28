@@ -24,13 +24,14 @@ jobs:
         run: |
           set -x  # Enable debugging
           sudo timedatectl set-timezone America/New_York
-          chmod +x console.sh  # Make script executable
-          # Delete and recreate README.md
+          chmod +x console.sh  
+          
           rm -f README.md
           touch README.md
           echo "```bash" >> README.md
           ./console.sh >> README.md
-          echo "```" >> README.md
+          echo "``` " >> README.md
+          echo " " >> README.md
           cat static.md >> README.md
 
       - name: Debug repository state
