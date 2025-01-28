@@ -1,7 +1,7 @@
 ```bash
 Last login: Tue, 28 Jan 2025 at 17:27:50 EST from 10.1.33.7
 
-echo "hello world, im $(whoami)."
+$ echo "hello world, im $(whoami)."
 hello world, im esteban.
 
 $ ls ~/interests
