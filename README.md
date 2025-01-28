@@ -1,17 +1,3 @@
-```bash
-Last login: Tue, 28 Jan 2025 at 17:27:50 EST from 10.1.33.7
-
-$ echo "hello world, im $(whoami)."
-hello world, im esteban.
-
-$ ls ~/interests
-cyber	math
-
-$ head -1 /etc/hosts
-127.0.0.1 localhost miami, fl
-
-$ do one thing and do it well. ^U^D
-```
   
 
 ![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits)
@@ -37,4 +23,5 @@ $ do one thing and do it well. ^U^D
 
 
 ![nightlife in miami - imgur https://imgur.com/a/1wl2zBG](https://github.com/pingusdelingus/pingusdelingus/blob/b9acd9be51e675fe99041d021c4bc92385dcad95/Downtown%20Miami%204k%20Nighttime%20Cinematic%20Drone%20Footage(1).gif)
+Last login: Fri, 24 Jan 2025 at 15:36:08 EST from 10.1.33.7
 
