@@ -9,33 +9,28 @@ jobs:
   console:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2  # Checkout your code repository
+      - name: Checkout repository
+        uses: actions/checkout@v2  # Checkout your code repository
 
       - name: Configure Git
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-      - name: Pull latest changes with rebase
-        run: |
-          rm -rf ./*.md
-          rm -rf ./*.sh
-          git pull origin main --rebase
+      - name: Pull latest changes
+        run: git pull origin main  # Pull changes without rebase
 
       - name: Run "console" and update README.md
         run: |
           set -x  # Enable debugging
           sudo timedatectl set-timezone America/New_York
-          chmod 777 console.sh
-
+          chmod +x console.sh  # Make script executable
           # Delete and recreate README.md
-          rm -f README.md 
+          rm -f README.md
           touch README.md
-          echo " ``` " >> README.md
+          echo "```bash" >> README.md
           ./console.sh >> README.md
-          echo " ```bash " >> README.md
-          
-          
+          echo "```" >> README.md
           cat static.md >> README.md
 
       - name: Debug repository state
@@ -51,6 +46,6 @@ jobs:
           else
             git add README.md
             git commit -m "Run console"
-            git pull origin main --rebase
-            git push
+            git pull origin main --rebase  # Rebase before pushing
+            git push origin main
           fi
