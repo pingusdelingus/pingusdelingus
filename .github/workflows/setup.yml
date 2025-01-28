@@ -18,21 +18,22 @@ jobs:
 
       - name: Pull latest changes with rebase
         run: |
-          
+          rm -rf ./*.md
+          rm -rf ./*.sh
           git pull origin main --rebase
 
       - name: Run "console" and update README.md
         run: |
           set -x  # Enable debugging
           sudo timedatectl set-timezone America/New_York
-          chmod 754 console.sh
+          chmod 777 console.sh
 
           # Delete and recreate README.md
-          rm -f README.md || true  # Ignore error if README.md doesn't exist
+          rm -f README.md 
           touch README.md
           echo " ``` " >> README.md
           ./console.sh >> README.md
-          echo " ``` " >> README.md
+          echo " ```bash " >> README.md
           
           
           cat static.md >> README.md
