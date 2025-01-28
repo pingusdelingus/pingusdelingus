@@ -28,9 +28,9 @@ jobs:
           
           rm -f README.md
           touch README.md
-          echo "```bash" | tee -a README.md
+          echo "\`\`\` bash" | tee -a README.md
           ./console.sh | tee -a README.md
-          echo "``` " | tee -a README.md
+          echo "\`\`\` " | tee -a README.md
           echo " " | tee -a README.md
           cat static.md | tee -a README.md
 
