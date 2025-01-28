@@ -1,4 +1,24 @@
- 
+``` bash
+Last login: Tue, 28 Jan 2025 at 18:12:16 EST from 10.1.33.7
+
+echo "hello world, im $(whoami)." 
+hello world, im esteban.
+
+$ ls ~/interests
+✏️mathematics
+🌐3d
+🌨️cloud
+🐧linux
+💻coding
+🔨neovim
+🚩cybersecurity
+
+$ head -1 /etc/hosts
+127.0.0.1 localhost miami, fl 
+
+$ do one thing and do it well. ^U^D 
+
+``` 
  
 
 ![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits)
