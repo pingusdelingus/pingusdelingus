@@ -40,7 +40,6 @@ $ do one thing and do it well. ^U^D
 
 
 > [!TIP]
-> don't get lost in the sauce.
 > don't feed the animals 
 
 
