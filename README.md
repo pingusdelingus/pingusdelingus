@@ -1,5 +1,5 @@
 ``` bash
-Last login: Fri, 14 Mar 2025 at 09:02:12 EDT from 10.1.33.7
+Last login: Fri, 14 Mar 2025 at 09:07:58 EDT from 10.1.33.7
 
 echo "hello world, im $(whoami)." 
 hello world, im esteban.
@@ -40,9 +40,13 @@ $ do one thing and do it well. ^U^D
 
 
 > [!TIP]
-> don't get lost in the sauce.
 > don't feed the animals 
 
 
 ![nightlife in miami - imgur https://imgur.com/a/1wl2zBG](https://github.com/pingusdelingus/pingusdelingus/blob/b9acd9be51e675fe99041d021c4bc92385dcad95/Downtown%20Miami%204k%20Nighttime%20Cinematic%20Drone%20Footage(1).gif)
 
+<div align="center">
+  <a href="https://open.spotify.com/user/0jlvkqaig52l1d77222seoema">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=0jlvkqaig52l1d77222seoema&count=3&unique=true" alt="Spotify recently played"  />
+  </a>
+</div>
