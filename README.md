@@ -21,6 +21,7 @@ $ do one thing and do it well. ^U^D
 ``` 
  
 
+![cube](./images/cube.gif)
 ![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits)
 
 <h1 align="center">hi i'm esteban</h1>
