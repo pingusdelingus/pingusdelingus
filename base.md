@@ -13,11 +13,11 @@ $ head -1 /etc/hosts
 $ # do one thing and do it well. ^U^D
 ```
 
-
+<div align="center">
 <p style="text-align: center;">
   <img src="./images/cube.gif" alt="Description of gif">
 </p>
-
+</div>
 
 ![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits)
 
