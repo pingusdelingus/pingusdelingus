@@ -1,5 +1,5 @@
 ``` bash
-Last login: Sun, 08 Jun 2025 at 13:41:48 EDT from 10.1.33.7
+Last login: Sun, 08 Jun 2025 at 13:50:46 EDT from 10.1.33.7
 
 echo "hello world, im $(whoami)." 
 hello world, im esteban.
@@ -20,11 +20,11 @@ $ do one thing and do it well. ^U^D
 
 ``` 
  
-
+<div align="center">
 <p style="text-align: center;">
   <img src="./images/cube.gif" alt="spinning cube">
 </p>
-
+</div>
 
 ![](https://github-readme-activity-graph.vercel.app/graph?username=pingusdelingus&theme=tokyo-night&hide_border=true&area=true&custom_title=esteban%27s%20recent%20commits)
 
