@@ -2,7 +2,7 @@ name: Run Console
 
 on:
   schedule:
-    - cron: "*/12 * * * *"  # Runs every 12 minute
+    - cron: "*/28 * * * *"  # Runs every 12 minute
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
