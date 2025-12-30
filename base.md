@@ -14,7 +14,7 @@ $ # do one thing and do it well. ^U^D
 ```
 
 
-<p style="text-align: center;">
+<p align="center">
   <img src="./images/cube.gif" alt="Description of gif">
 </p>
 
