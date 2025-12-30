@@ -1,5 +1,5 @@
 ``` bash
-Last login: Tue, 30 Dec 2025 at 13:53:50 EST from 10.1.33.7
+Last login: Tue, 30 Dec 2025 at 14:18:09 EST from 10.1.33.7
 
 echo "hello world, im $(whoami)." 
 hello world, im esteban.
@@ -21,7 +21,7 @@ $ do one thing and do it well. ^U^D
 ``` 
  
 
-<p align="center" >
+<p style="text-align: center;">
   <img src="./images/cube.gif" alt="spinning cube">
 </p>
 
