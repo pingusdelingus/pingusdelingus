@@ -1,5 +1,5 @@
 
-<p style="text-align: center;">
+<p align="center">
   <img src="./images/cube.gif" alt="spinning cube">
 </p>
 
