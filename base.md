@@ -1,3 +1,4 @@
+$$ \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} - rV = 0 $$
 ```sh
 Last login: Thu, 23 Jan 2025 at 19:39:49 EST from 10.1.33.7
 
