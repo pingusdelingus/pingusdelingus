@@ -28,7 +28,7 @@
 
 ![nightlife in miami - imgur https://imgur.com/a/1wl2zBG](https://github.com/pingusdelingus/pingusdelingus/blob/b9acd9be51e675fe99041d021c4bc92385dcad95/Downtown%20Miami%204k%20Nighttime%20Cinematic%20Drone%20Footage(1).gif)
 
-<a href="https://open.spotify.com/user/0jlvkqaig52l1d77222seoema">
+<p aling="center" href="https://open.spotify.com/user/0jlvkqaig52l1d77222seoema">
   <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=0jlvkqaig52l1d77222seoema&amp;count=3" alt="Spotify recently played" width="400" />
-</a>
+</p>
 
